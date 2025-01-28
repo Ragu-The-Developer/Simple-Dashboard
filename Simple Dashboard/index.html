@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <main class="main-content">
+      <header class="header">
+        <h1>Welcome, Followers</h1>
+      </header>
+      <section class="cards">
+        <div class="card">
+          <h3>Total Users</h3>
+          <p>1,245</p>
+        </div>
+        <div class="card">
+          <h3>Active Sessions</h3>
+          <p>578</p>
+        </div>
+        <div class="card">
+          <h3>Revenue</h3>
+          <p>$12,345</p>
+        </div>
+        <div class="card">
+          <h3>New Signups</h3>
+          <p>150</p>
+        </div>
+        <div class="card">
+          <h3>Feedback Received</h3>
+          <p>320</p>
+        </div>
+        <div class="card">
+          <h3>Projects Completed</h3>
+          <p>45</p>
+        </div>
+      </section>
+     <section class="charts">
+  <div class="chart-container">
+    <canvas id="pieChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="doughnutChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="radarChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="lineChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="barChart"></canvas>
+  </div>
+</section>
+
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
